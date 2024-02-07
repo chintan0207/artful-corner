@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "projectImg":"./ProjectImg/home1.jpg",
+        "projectPlace":"The Darshan'Home",
+        "projectType":"2023,Custom Project,San diego"  
+    },
+    
+    {
+        "id":2,
+        "projectImg":"./ProjectImg/home2.jpg",
+        "projectPlace":"GMD Travel Agency",
+        "projectType":"2023,Custom Project,San diego"
+    },
+
+    
+    {
+        "id":3,
+        "projectImg":"./ProjectImg/home3.jpg",
+        "projectPlace":"Social Support Center",
+        "projectType":"2023,Commercial Project,San diego"  
+    },
+    
+    {
+        "id":4,
+        "projectImg":"./ProjectImg/home4.jpg",
+        "projectPlace":"The Rahul's House",
+        "projectType":"2023,Custom Project,USA"
+    },
+
+    {
+        "id":5,
+        "projectImg":"./ProjectImg/home5.jpg",
+        "projectPlace":"The Supreme Restaurent",
+        "projectType":"2023,Custom Project,San diego"  
+    },
+    
+    {
+        "id":6,
+        "projectImg":"./ProjectImg/home6.jpg",
+        "projectPlace":"HR Concert Hall",
+        "projectType":"2023,Custom Project,San diego"
+    },
+
+    
+    {
+        "id":7,
+        "projectImg":"./ProjectImg/home7.jpg",
+        "projectPlace":"Natraj Dance Studio",
+        "projectType":"2023,Custom Project,San diego"  
+    },
+    
+    {
+        "id":8,
+        "projectImg":"./ProjectImg/home8.jpg",
+        "projectPlace":"Boston Entainment Zone",
+        "projectType":"2023,Custom Project,San diego"
+    }
+]
+    

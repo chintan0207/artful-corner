@@ -1,0 +1,143 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    color: rgba(255, 255, 255, 0.863);
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+
+.logo {
+    flex: 2;
+    padding-left: 4%;
+    /* border: 1px solid red; */
+    color: #ffdd26;
+
+}
+
+.list {
+
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 7%;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list li a:hover {
+    color: #ffdd26;
+}
+
+.last {
+    flex: 5;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10%;
+}
+
+.last .a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+
+}
+
+.menu {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: block;
+        font-size: 25px;
+    }
+
+    .logo {
+        padding-left: 2%;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+}
+
+/*.......... drawer......................... */
+
+.dr {
+    background-color: black;
+}
+
+.d-logo {
+    display: flex;
+    padding-left: 2%;
+    gap: 7px;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(34, 33, 33);
+    color: rgba(255, 255, 255, 0.863);
+
+
+}
+
+.d-logo h3 {
+    color: #ffdd26;
+
+}
+
+.d-back {
+    font-size: 25px;
+}
+
+.d-menu {
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    padding-left: 10%;
+    padding-top: 5%;
+    background-color: black;
+    list-style: none;
+    flex-direction: column;
+    /* gap: 20px; */
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+
+}
+
+.d-menu li {
+    padding: 15px 0px;
+}
+
+.d-menu li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.d-menu li a:hover {
+    color: white;
+}

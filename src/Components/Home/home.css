@@ -1,0 +1,98 @@
+.main{
+    color: white;
+    background: rgba(0,0,0,0.7) url('../../../public/Img/homepage.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 550px;
+    width: 100%;
+    padding-right: 5%;
+}
+
+.h-text{
+  padding-top: 5%;
+  padding-left: 10%;
+  visibility: visible;
+  animation-delay: 0.5s;
+  animation-name: fadeInRight;
+}
+.h-text h1{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.863);
+    
+
+}
+.h-text p{
+  max-width: 330px;
+    text-align: justify;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.c-btn{
+    max-width:330px;
+    background-color :#ffdd26;
+    color: #3a3a3a;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+.main a{
+    text-decoration: none;
+    color: grey;
+}
+
+.c-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width:700px) {
+    .main{
+        height: 400px;
+    }
+    .h-text h1{
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 27px;
+    }
+}
+
+
+/* ....................animation.................. */
+
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  .animate2 {
+    animation-name: fadeInRight;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-out;
+  }
+  .animate3 {
+    animation-name: fadeInRight;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
+  }
+  
+  
+
+

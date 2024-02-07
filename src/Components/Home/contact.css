@@ -1,0 +1,79 @@
+.contactus {
+    color: white;
+    background: rgba(0, 0, 0, 0.9) url('../../../public/Img/contact1.png') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 550px;
+    width: 100%;
+    padding: 5%;
+    padding-bottom: 0;
+
+
+}
+
+.c-title h1 {
+    font-weight: 600;
+
+}
+
+
+.c-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.c-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.c-box .icon {
+    font-size: 75px;
+    padding: 8px;
+    margin: 30px 0px;
+}
+
+.border-div {
+    margin-top: 30px;
+    border: 3px solid #ffdd26;
+    width: 50px;
+    height: 1px;
+}
+
+.c-box:hover {
+    background-color: #ffdd26;
+    transition: background-color 0.3s ease;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.contactform {
+    padding: 5%;
+    background-color: #3b3b3b;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+@media screen and (max-width:700px) {
+    .c-box .icon {
+        font-size: 55px;
+    }
+
+    .c-box:hover {
+        background-color: #ffdd26;
+        transition: background-color 0.3s ease;
+        color: black;
+        border-radius: 10px;
+        margin: 10px;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    min-height: 350px;
+    padding: 6%;
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.863);
+    background: rgba(0, 0, 0, .9) url('../../../public/Img/footerbg.png') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.grey {
+    color: grey;
+}
+
+
+.f-span {
+    border: 0.2px solid rgb(82, 77, 77);
+
+}
+
+.footer h3 {
+    color: #ffdd26;
+}
+
+.footer .a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}

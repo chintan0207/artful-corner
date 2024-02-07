@@ -1,0 +1,156 @@
+.aboutus {
+    padding-left: 5%;
+}
+
+.left {
+    padding-right: 5%;
+    /* padding-left: 5%; */
+    padding-bottom: 4%;
+    padding-top: 5%;
+    /* border: 1px solid red; */
+}
+
+.d-box {
+    display: flex;
+    gap: 45px;
+}
+
+.left .row {
+    margin-bottom: 30px;
+
+}
+
+.left h1 {
+    margin-bottom: 15px;
+
+}
+
+.left p {
+    margin-bottom: 25px;
+    color: gray;
+    text-align: justify;
+}
+
+.left h5 {
+    /* padding-left: 5%; */
+
+}
+
+.left .pp {
+    padding-left: 0;
+    padding-bottom: 15px;
+
+}
+
+.au .icon {
+    font-size: 70px;
+    padding: 5px;
+    border-bottom: 5px solid #ffdd26;
+    border: 5px solid #ffdd26;
+    border-radius: 25%;
+
+}
+
+.pics {
+    display: flex;
+    gap: 60px;
+}
+
+.pic1 {
+    max-height: 400px;
+    max-width: 250px;
+}
+
+.pic2 {
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.pics2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.pic3 {
+    max-height: 250px;
+    max-width: 400px;
+}
+
+@media screen and (max-width:1200px) {
+    .pic1 {
+        max-height: 300px;
+        max-width: 200px;
+    }
+
+    .pic2 {
+        max-height: 175px;
+        max-width: 275px;
+    }
+
+    .pic3 {
+        max-height: 175px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .pic1 {
+        max-height: 400px;
+        max-width: 250px;
+    }
+
+    .pic2 {
+        max-height: 250px;
+        max-width: 300px;
+    }
+
+
+    .pic3 {
+        max-height: 250px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .pics {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic1 {
+        height: 300px;
+        width: 200px;
+    }
+
+    .pic2 {
+        height: 200px;
+        width: 250px;
+    }
+
+    .pics2 {
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+    }
+
+    .pic3 {
+        height: 250px;
+        width: 300px;
+    }
+
+    .d-box {
+        gap: 10px;
+    }
+
+    .au .icon {
+        font-size: 45px;
+        padding: 5px;
+
+
+    }
+}
