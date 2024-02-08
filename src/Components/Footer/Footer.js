@@ -37,7 +37,7 @@ const Footer = () => {
 
         </div>
         <div className='p-3 pb-0 text-center grey '>
-          <p>©  2024 Interia. All Rights Reserved. Design by Chintan</p>
+          <p>©  2024 Interia. All Rights Reserved. Design by artful-corner</p>
         </div>
 
       </div>

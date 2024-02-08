@@ -44,7 +44,7 @@ const Portfolio = () => {
                 {pData.map((item) =>{
                     return(
                         <div className='one-box' key={item.id}>
-                        <img src={item.projectImg} height={275} width={300} />
+                        <img src={item.projectImg} alt="" height={275} width={300} />
                         <h4 className='mt-3'>{item.projectPlace}</h4>
                         <p className='mt-1 mb-2'>{item.projectType}</p>
                     </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Drawer from 'react-modern-drawer'
-import { FaBars } from "react-icons/fa";
 import { IoArrowBack } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import './navbar.css'

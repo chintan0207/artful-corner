@@ -45,7 +45,7 @@
     flex: 5;
     /* border: 1px solid red; */
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     gap: 10%;
 }
@@ -115,7 +115,7 @@
 
 .d-menu {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     /* justify-content: center; */
     padding-left: 10%;
     padding-top: 5%;

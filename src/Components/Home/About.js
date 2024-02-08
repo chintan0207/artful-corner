@@ -49,12 +49,12 @@ const About = () => {
                     </div>
                     <div className='col-md-12 col-lg-6 row g-0'>
                         <div className='col-md-12 pics'>
-                            <img className='pic1 pt-4' src="./Img/about2.jfif" height={400} width={250} />
-                            <img className='pic2' src="./Img/about3.jpg" height={250} width={300} />
+                            <img className='pic1 pt-4' src="./Img/about2.jfif" alt="" height={400} width={250} />
+                            <img className='pic2' src="./Img/about3.jpg" alt="" height={250} width={300} />
 
                         </div>
                         <div className='col-md-12 pics2'>
-                            <img className='pic3 p-4' src="./Img/about4.jpg"/>
+                            <img className='pic3 p-4' src="./Img/about4.jpg" alt=""/>
                         </div>
 
 
