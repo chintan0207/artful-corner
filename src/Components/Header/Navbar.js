@@ -26,7 +26,7 @@ const Navbar = (props) => {
             </ul>
             <div className='last'>
                <a className='a' href="mailto:imchintan0207@gmail.com">artful-corner@gmail.com</a>
-               <a className='a' href="tel:+1234567890">1800-145-789</a>
+               <a className='a' href="tel:+1234567890">1800-125-444</a>
             </div>
 
 

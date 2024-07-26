@@ -22,9 +22,9 @@ const Home = () => {
 
       <div className='main'>
         <div className='h-text'>
-          <h1 className={isAnimated ? 'animate' : ''}>Interior design</h1>
-          <h1 className={isAnimated ? 'animate' : ''}>and decore</h1>
-          <h1 className={isAnimated ? 'animate' : ''}>for your home</h1>
+          <h1 className={isAnimated ? 'animate' : ''}>Interior Design</h1>
+          <h1 className={isAnimated ? 'animate' : ''}>and Decore</h1>
+          <h1 className={isAnimated ? 'animate' : ''}>for Your Home</h1>
           <p className={isAnimated ? 'mt-3 animate2' : 'mt-3'}>Our team creates comfortable spaces for our clients.
             We’ve been designing your everyday life and work through great ideas since 1999.
           </p>
