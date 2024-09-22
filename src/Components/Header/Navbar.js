@@ -16,7 +16,7 @@ const Navbar = (props) => {
          <div className='navbar'>
             <FaBars className='menu' onClick={toggleDrawer} />
             <div className='logo'>
-               <h3>Artful Corner</h3>
+               <h3>Successful Corner</h3>
             </div>
             <ul className='list'>
                <li><Link to="/home">Home</Link></li>
